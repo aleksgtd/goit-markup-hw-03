@@ -36,136 +36,14 @@ ul {
   padding: 0;
 }
 
-.header {
-  height: 80px;
-  display: flex;
-  align-items: center;
-}
-
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.header .container,
-.nav,
-.site-nav,
-.contacts {
-  display: flex;
-}
-
-.header .container,
-.nav,
-.contacts {
-  justify-content: space-between;
-  align-items: center;
-}
-
-.list.contacts {
-  margin: 0;
-}
-
-.contacts .item {
-  text-align: end;
-}
-
-.primery-section .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 106px 0;
-}
-
-.button.order-btn {
-  display: inline-block;
-  width: 200px;
-  height: 50px;
-  margin-top: 30px;
-}
-
 .section {
   padding: 94px 0;
-}
-
-.secondary-section .container {
-  display: flex;
-}
-
-.secondary-section .list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.secondary-section .item {
-  width: 270px;
-}
-
-.secondary-section .item:not(:last-child) {
-  margin: 0 30px 0 0;
-}
-
-.secondary-section-text {
-  margin: 10px 0 0 0;
-}
-
-.section.third-section {
-  padding: 0 0 94px 0;
-}
-
-.third-section .list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.third-section .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.forth-section .list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.forth-section .item {
-  background-color: #ffffff;
-}
-
-.forth-section .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.forth-section-undertitle {
-  margin: 30px 0 10px 0;
-}
-
-.forth-section-text {
-  margin-bottom: 30px;
-}
-
-.address .link {
-  margin: 0;
-}
-
-.footer {
-  padding: 60px 0;
-}
-
-.footer .container,
-.address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.footer .logo {
-  margin: 0 0 20px 0;
-}
-
-.footer .item:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .link {
@@ -206,6 +84,37 @@ ul {
 }
 
 /*-header-*/
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: #ececec;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+}
+
+.header .container,
+.nav,
+.site-nav,
+.contacts {
+  display: flex;
+}
+
+.header .container,
+.nav,
+.contacts {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list.contacts {
+  margin: 0;
+}
+
+.contacts .item {
+  text-align: end;
+}
 
 .right-header {
   color: var(--logo-color-right-header);
@@ -259,6 +168,29 @@ ul {
   background-color: var(--background-color-dark);
 }
 
+.address .link {
+  margin: 0;
+}
+
+.footer {
+  padding: 60px 0;
+}
+
+.footer .container,
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .logo {
+  margin: 0 0 20px 0;
+}
+
+.footer .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .right-footer {
   color: var(--logo-color-right-footer);
 }
@@ -283,6 +215,20 @@ ul {
 /*-primery-section-*/
 .primery-section {
   background-color: var(--background-color-dark);
+}
+
+.primery-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 106px 0;
+}
+
+.button.order-btn {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
 }
 
 .primery-title {
@@ -315,6 +261,27 @@ ul {
 }
 
 /*-secondary-section-*/
+.secondary-section .container {
+  display: flex;
+}
+
+.secondary-section .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-section .item {
+  width: 270px;
+}
+
+.secondary-section .item:not(:last-child) {
+  margin: 0 30px 0 0;
+}
+
+.secondary-section-text {
+  margin: 10px 0 0 0;
+}
+
 .secondary-section-undertitle {
   color: var(--title-color);
   font-weight: 700;
@@ -332,6 +299,20 @@ ul {
 }
 
 /*-third-section-*/
+.section.third-section {
+  padding: 0 0 94px 0;
+}
+
+.third-section .list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.third-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .third-section-title {
   color: var(--title-color);
   font-weight: 700;
@@ -344,6 +325,28 @@ ul {
 /*-forth-section-*/
 .forth-section {
   background-color: #f5f4fa;
+}
+
+.forth-section .list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.forth-section .item {
+  background-color: #ffffff;
+}
+
+.forth-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.forth-section-undertitle {
+  margin: 30px 0 10px 0;
+}
+
+.forth-section-text {
+  margin-bottom: 30px;
 }
 
 .forth-section-title {
@@ -433,8 +436,11 @@ ul {
   margin-top: 30px;
 }
 
-.header {
-  border-bottom: #ececec;
-  border-width: 0 0 1px 0;
-  border-style: solid;
+.portfolio-image-desc {
+  width: 322px;
+  margin: 20px 24px;
+}
+
+.portfolio-title {
+  margin-bottom: 4px;
 }
