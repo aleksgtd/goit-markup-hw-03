@@ -20,13 +20,156 @@ body {
   font-family: "roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0 auto;
+}
+
 .list {
   list-style: none;
+  padding: 0;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header .container,
+.nav,
+.site-nav,
+.contacts {
+  display: flex;
+}
+
+.header .container,
+.nav,
+.contacts {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list.contacts {
+  margin: 0;
+}
+
+.contacts .item {
+  text-align: end;
+}
+
+.primery-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 106px 0;
+}
+
+.button.order-btn {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.secondary-section .container {
+  display: flex;
+}
+
+.secondary-section .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-section .item {
+  width: 270px;
+}
+
+.secondary-section .item:not(:last-child) {
+  margin: 0 30px 0 0;
+}
+
+.secondary-section-text {
+  margin: 10px 0 0 0;
+}
+
+.section.third-section {
+  padding: 0 0 94px 0;
+}
+
+.third-section .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.third-section .item {
+  margin-top: 50px;
+}
+
+.forth-section .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forth-section .item {
+  margin-top: 50px;
+}
+
+.forth-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.address .link {
+  margin: 0;
+}
+
+.footer {
+  padding: 60px 0;
+}
+
+.footer .container,
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .logo {
+  margin: 0 0 20px 0;
+}
+
+.footer .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .link {
   font-style: inherit;
   text-decoration: none;
+}
+
+.site-nav-link,
+.contacts-link {
+  margin: 0 0 0 50px;
 }
 
 .logo {
@@ -35,6 +178,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0 93px 0 0;
 }
 
 .left {
@@ -149,7 +294,6 @@ body {
   font-size: 16px;
   line-height: 1.88;
   display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
