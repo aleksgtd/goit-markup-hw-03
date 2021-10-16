@@ -1,0 +1,246 @@
+:root {
+  --logo-color-left: #2196f3;
+  --logo-color-right-header: #000000;
+  --logo-color-right-footer: #ffffff;
+  --nav-item-color: #212121;
+  --nav-item-focus-color: #2196f3;
+  --contacts-color: #757575;
+  --primery-title-color: #ffffff;
+  --title-color: #212121;
+  --focus-color: #2196f3;
+  --text-color: #757575;
+  --button-color: #212121;
+  --button-background-color: #f5f4fa;
+  --button-focus-color: #ffffff;
+  --button-background-focus-color: #2196f3;
+  --background-color-dark: #2f303a;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  font-style: inherit;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.left {
+  color: var(--logo-color-left);
+}
+
+.button {
+  font-style: inherit;
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+  cursor: pointer;
+}
+
+.button:focus,
+.button:hover {
+  color: var(--button-focus-color);
+  background-color: var(--button-background-focus-color);
+}
+
+/*-header-*/
+
+.right-header {
+  color: var(--logo-color-right-header);
+}
+
+.site-nav-link {
+  color: var(--nav-item-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-link:focus,
+.site-nav-link:hover {
+  color: var(--nav-item-focus-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-link.current {
+  color: var(--nav-item-focus-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link {
+  color: var(--contacts-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--nav-item-focus-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*-footer-*/
+
+.footer {
+  background-color: var(--background-color-dark);
+}
+
+.right-footer {
+  color: var(--logo-color-right-footer);
+}
+
+.address {
+  font-style: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts-physical {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  color: var(--contacts-color);
+}
+
+/*-studio page-*/
+
+/*-primery-section-*/
+.primery-section {
+  background-color: var(--background-color-dark);
+}
+
+.primery-title {
+  color: var(--primery-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.primery-section > .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button.order-btn {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.button.order-btn:hover,
+.button.order-btn:focus {
+  background-color: #188ce8;
+}
+
+/*-secondary-section-*/
+.secondary-section-undertitle {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.secondary-section-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*-third-section-*/
+.third-section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*-forth-section-*/
+.forth-section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.forth-section-undertitle {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.forth-section-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*-portfolio page-*/
+
+/*-buttons-section-*/
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*-pictures-section-*/
+.portfolio-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-desc {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
