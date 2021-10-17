@@ -426,21 +426,17 @@ ul {
 .images-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: -30px;
+  margin-right: -30px;
 }
 
-.images-list .item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.images-list .item:not(:nth-child(-n + 3)) {
+.images-list .item {
   margin-top: 30px;
+  margin-right: 30px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 .portfolio-image-desc {
   width: 322px;
   margin: 20px 24px;
-}
-
-.portfolio-title {
-  margin-bottom: 4px;
 }
