@@ -17,7 +17,7 @@
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav">
           <a
             href="https://aleksgtd.github.io/goit-markup-hw-02/"
@@ -27,27 +27,27 @@
             ><span class="right-header">Studio</span></a
           >
           <ul class="list site-nav">
-            <li class="item">
+            <li class="item site-nav-item">
               <a href="./index.html" class="link site-nav-link current"
                 >Студия</a
               >
             </li>
-            <li class="item">
+            <li class="item site-nav-item">
               <a href="portfolio.html" class="link site-nav-link">Портфолио</a>
             </li>
-            <li class="item">
+            <li class="item site-nav-item">
               <a href="" class="link site-nav-link">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <ul class="list contacts">
-          <li class="item">
+          <li class="item header-contacts-item">
             <a href="mailto:info@devstudio.com" class="link contacts-link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
+          <li class="item header-contacts-item">
             <a href="tel:+380961111111" class="link contacts-link"
               >+38 096 111 11 11</a
             >
@@ -57,9 +57,9 @@
     </header>
 
     <main>
-      <section class="section primery-section">
-        <div class="container">
-          <h1 class="primery-title">
+      <section class="hero-section">
+        <div class="container hero-section-container">
+          <h1 class="hero-section-title">
             Эффективные решения<br />для вашего бизнеса
           </h1>
 
@@ -68,36 +68,34 @@
           </button>
         </div>
       </section>
-      <section class="section secondary-section">
-        <div class="container">
-          <h2 hidden class="secondary-title">Особенности</h2>
-          <ul class="list">
-            <li class="item">
-              <h3 class="secondary-section-undertitle">Внимание к деталям</h3>
-              <p class="secondary-section-text">
+      <section class="section features-section">
+        <div class="container features-section-container">
+          <h2 class="features-title visually-hidden">Особенности</h2>
+          <ul class="list features-section-list">
+            <li class="item features-section-item">
+              <h3 class="features-section-subtitle">Внимание к деталям</h3>
+              <p class="features-section-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
-              <h3 class="secondary-section-undertitle">Пунктуальность</h3>
-              <p class="secondary-section-text">
+            <li class="item features-section-item">
+              <h3 class="features-section-subtitle">Пунктуальность</h3>
+              <p class="features-section-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
-              <h3 class="secondary-section-undertitle">Планирование</h3>
-              <p class="secondary-section-text">
+            <li class="item features-section-item">
+              <h3 class="features-section-subtitle">Планирование</h3>
+              <p class="features-section-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
-              <h3 class="secondary-section-undertitle">
-                Современные технологии
-              </h3>
-              <p class="secondary-section-text">
+            <li class="item features-section-item">
+              <h3 class="features-section-subtitle">Современные технологии</h3>
+              <p class="features-section-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -106,84 +104,72 @@
         </div>
       </section>
 
-      <section class="section third-section">
+      <section class="section activities-section">
         <div class="container">
-          <h2 class="third-section-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li class="item">
-              <img
-                src="./images/box1.jpg"
-                alt="руки на клавиатуре"
-                width="370"
-                height="294"
-              />
+          <h2 class="activities-section-title">Чем мы занимаемся</h2>
+          <ul class="list activities-section-list">
+            <li class="item activities-section-item">
+              <img src="./images/box1.jpg" alt="руки на клавиатуре" />
             </li>
-            <li class="item">
-              <img
-                src="./images/box2.jpg"
-                alt="рука держит смартфон"
-                width="370"
-                height="294"
-              />
+            <li class="item activities-section-item">
+              <img src="./images/box2.jpg" alt="рука держит смартфон" />
             </li>
-            <li class="item">
+            <li class="item activities-section-item">
               <img
                 src="./images/box3.jpg"
                 alt="планшет с разноцветным изображением в руке"
-                width="370"
-                height="294"
               />
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section forth-section">
+      <section class="section team-section">
         <div class="container">
-          <h2 class="forth-section-title">Наша команда</h2>
-          <ul class="list">
-            <li class="item">
+          <h2 class="team-section-title">Наша команда</h2>
+          <ul class="list team-section-list">
+            <li class="item team-section-item">
               <img
                 src="./images/team-card1.jpg"
                 alt="улыбающийся парень в очках"
-                width="270"
-                height="260"
               />
-              <h3 class="forth-section-undertitle">Игорь Демьяненко</h3>
-              <p lang="en" class="forth-section-text">Product Designer</p>
+              <div class="team-section-item-desc">
+                <h3 class="team-section-subtitle">Игорь Демьяненко</h3>
+                <p lang="en" class="team-section-text">Product Designer</p>
+              </div>
             </li>
 
-            <li class="item">
+            <li class="item team-section-item">
               <img
                 src="./images/team-card2.jpg"
                 alt="улыбающаяся девушка в очках"
-                width="270"
-                height="260"
               />
-              <h3 class="forth-section-undertitle">Ольга Репина</h3>
-              <p lang="en" class="forth-section-text">Frontend Developer</p>
+              <div class="team-section-item-desc">
+                <h3 class="team-section-subtitle">Ольга Репина</h3>
+                <p lang="en" class="team-section-text">Frontend Developer</p>
+              </div>
             </li>
 
-            <li class="item">
+            <li class="item team-section-item">
               <img
                 src="./images/team-card3.jpg"
                 alt="улыбающийся парень в рубашке"
-                width="270"
-                height="260"
               />
-              <h3 class="forth-section-undertitle">Николай Тарасов</h3>
-              <p lang="en" class="forth-section-text">Marketing</p>
+              <div class="team-section-item-desc">
+                <h3 class="team-section-subtitle">Николай Тарасов</h3>
+                <p lang="en" class="team-section-text">Marketing</p>
+              </div>
             </li>
 
-            <li class="item">
+            <li class="item team-section-item">
               <img
                 src="./images/team-card4.jpg"
                 alt="улыбающийся парень в футболке"
-                width="270"
-                height="260"
               />
-              <h3 class="forth-section-undertitle">Михаил Ермаков</h3>
-              <p lang="en" class="forth-section-text">UI Designer</p>
+              <div class="team-section-item-desc">
+                <h3 class="team-section-subtitle">Михаил Ермаков</h3>
+                <p lang="en" class="team-section-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -195,23 +181,23 @@
         <a
           href="https://aleksgtd.github.io/goit-markup-hw-02/"
           lang="en"
-          class="link logo"
+          class="link logo footer-logo"
           ><span class="left">Web</span
           ><span class="right-footer">Studio</span></a
         >
         <address class="address">
           <ul class="list">
-            <li class="item">
+            <li class="item footer-item">
               <a href="" class="link contacts-physical"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li class="item">
+            <li class="item footer-item">
               <a href="mailto:info@devstudio.com" class="link contacts-link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="item">
+            <li class="item footer-item">
               <a href="tel:+380961111111" class="link contacts-link"
                 >+38 096 111 11 11</a
               >
