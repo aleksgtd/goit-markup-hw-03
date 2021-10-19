@@ -216,13 +216,13 @@ img {
 
 .hero-section {
   background-color: var(--background-color-dark);
+  padding: 200px 0;
 }
 
 .hero-section-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 200px 0;
 }
 
 .order-btn {
@@ -287,9 +287,12 @@ img {
 
 /*-activities-section-*/
 
+.activities-section {
+  padding-top: 0;
+}
+
 .activities-section-list {
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
 }
 
